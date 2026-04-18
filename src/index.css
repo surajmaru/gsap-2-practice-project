@@ -55,7 +55,14 @@ body {
     width: 100dvw;
     background-color: #dfdff0;
     overflow-x: hidden;
+    /* scrollbar-width: none;  */
 }
+
+/* For Chrome, Safari, and Edge */
+body::-webkit-scrollbar {
+    display: none;
+}
+
 
 @layer utilities {
   .border-hsla {
