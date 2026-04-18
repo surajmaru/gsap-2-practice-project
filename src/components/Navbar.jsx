@@ -5,7 +5,7 @@ import { TiLocationArrow } from 'react-icons/ti';
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
-const navItems = ["Nexus", "Vault", "Prologue","About","Contact"];
+const navItems = ["Home", "About", "Features","Story","Contact"];
 
 function Navbar() {
     const [isAudioPlaying,setIsAudioPlaying] = useState(false);

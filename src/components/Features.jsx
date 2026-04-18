@@ -38,7 +38,7 @@ const BentoTilt = ({children, className= ""}) => {
 
 function Features() {
   return (
-    <section className="bg-black pb-52">
+    <section className="bg-black pb-52" id='features'>
         <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
             <p className="font-circular-web text-lg text-blue-50">
@@ -54,7 +54,7 @@ function Features() {
         <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
             <BentoCard 
             src="videos/feature-1.mp4"
-            title={<>radi<b>n</b>t</>}
+            title={<>radie<b>n</b>t</>}
             description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
             isComingSoon
             />
